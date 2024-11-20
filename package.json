@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
+    "@formkit/nuxt": "^1.6.9",
+    "@formkit/vuetify": "^0.1.0",
+    "@mdi/font": "^7.4.47",
+    "nuxt": "^3.14.159",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "vite-plugin-vuetify": "^2.0.4",
+    "vuetify": "^3.7.4"
+  }
+}
